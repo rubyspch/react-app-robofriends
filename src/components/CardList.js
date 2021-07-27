@@ -2,7 +2,10 @@ import React from 'react';
 import Card from './Card'
 
 const CardList = ({ robots }) => {
-    
+    // ERROR BOUNDARY TEST:
+    // if (true){ 
+    //     throw new Error('NOOO');
+    // }
     return(
         <>
             {
